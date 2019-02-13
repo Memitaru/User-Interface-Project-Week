@@ -127,7 +127,47 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-body {
+html {
   font-size: 62.5%;
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+header {
+  background: #99A4AF;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .logo {
+  font-weight: bold;
+  font-size: 2.4rem;
+  color: #FFFFFF;
+  padding: 0 0 0 85px;
+}
+header .hamburger {
+  padding: 0 85px 0 0;
+}
+nav {
+  display: none;
+}
+.nav-open {
+  display: block;
+}
+.container {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+.container .banner-top {
+  background: url(../img/home/home-jumbotron.png);
+  height: 550px;
+  font-weight: bold;
+  font-size: 6.4rem;
+  line-height: 7.5rem;
+  color: #FFFFFF;
+}
+.container .banner-top p {
+  width: 25%;
+  padding: 275px 0 0 80px;
 }
