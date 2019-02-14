@@ -216,19 +216,23 @@ footer .copyright {
   width: 25%;
   padding: 275px 0 0 80px;
 }
+.container-home .main {
+  padding-left: 85px;
+}
 .container-home .main .side-by-side-top {
   display: flex;
   width: 100%;
+  justify-content: space-between;
+  padding-bottom: 100px;
 }
 .container-home .main .side-by-side-top .small-content {
-  width: 50%;
-  padding: 100px 0 0 80px;
+  width: 45%;
+  padding: 100px 0 0 0;
 }
 .container-home .main .side-by-side-top .small-content h2 {
+  font-size: 24px;
   font-weight: bold;
-  font-size: 2.8rem;
-  color: #222222;
-  padding-bottom: 15px;
+  padding-bottom: 18px;
 }
 .container-home .main .side-by-side-top .small-content p {
   font-weight: normal;
@@ -236,8 +240,8 @@ footer .copyright {
   line-height: 2.4rem;
 }
 .container-home .main .side-by-side-top .small-img {
-  width: 50%;
-  padding: 50px 0 0 10px;
+  width: 55%;
+  padding: 50px 0 0 20px;
 }
 .container-home .main .side-by-side-btm {
   display: flex;
@@ -245,11 +249,9 @@ footer .copyright {
 }
 .container-home .main .side-by-side-btm .small-img {
   width: 50%;
-  padding: 100px 0 0 80px;
 }
 .container-home .main .side-by-side-btm .small-content {
   width: 50%;
-  padding: 140px 0 0 10px;
 }
 .container-home .main .side-by-side-btm .small-content h2 {
   font-weight: bold;
@@ -286,7 +288,6 @@ footer .copyright {
   letter-spacing: 8px;
   text-align: center;
   padding-top: 35px;
-  margin: 175px 0 0 540px;
 }
 .container-home .main .full-length .villas-header p {
   width: 50%;
