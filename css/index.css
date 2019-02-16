@@ -157,10 +157,20 @@ header .logo {
   font-weight: bold;
   font-size: 2.4rem;
   color: #FFFFFF;
-  padding: 0 0 0 85px;
+  padding-left: 85px;
+}
+@media (max-width: 500px) {
+  header .logo {
+    padding-left: 15px;
+  }
 }
 header .hamburger {
-  padding: 0 85px 0 0;
+  padding-right: 85px;
+}
+@media (max-width: 500px) {
+  header .hamburger {
+    padding-right: 15px;
+  }
 }
 nav {
   display: none;
@@ -235,17 +245,35 @@ footer .copyright {
   max-width: 1024px;
   margin: 0 auto;
 }
+@media (max-width: 500px) {
+  .container-home {
+    max-width: 500px;
+  }
+}
 .container-home .banner-top {
-  background: url(../img/home/home-jumbotron.png);
+  background: no-repeat url(../img/home/home-jumbotron.png);
   height: 550px;
   font-weight: bold;
   font-size: 6.4rem;
   line-height: 7.5rem;
   color: #FFFFFF;
 }
+@media (max-width: 500px) {
+  .container-home .banner-top {
+    height: 235px;
+    background-size: 500px;
+  }
+}
 .container-home .banner-top p {
-  width: 25%;
-  padding: 275px 0 0 80px;
+  width: 50%;
+  padding: 30px 0 0 10px;
+}
+@media (max-width: 500px) {
+  .container-home .banner-top p {
+    font-size: 4rem;
+    line-height: 4.5rem;
+    padding: 70px 0 0 10px;
+  }
 }
 .container-home .main {
   padding: 0 85px;

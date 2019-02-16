@@ -7,11 +7,19 @@ header {
     
     .logo{
         .nav-logo;
-        padding: 0 0 0 85px;
+        padding-left: 85px;
+
+        @media @mobile {
+            padding-left: 15px;
+        }
     }
 
     .hamburger{
-        padding: 0 85px 0 0;
+        padding-right: 85px;
+
+        @media @mobile {
+            padding-right: 15px;
+        }
     }
 }
 
