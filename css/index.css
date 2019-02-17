@@ -367,7 +367,11 @@ footer .copyright {
 .container-home .main .side-by-side-btm {
   display: flex;
   width: 100%;
-  flex-direction: column;
+}
+@media (max-width: 500px) {
+  .container-home .main .side-by-side-btm {
+    flex-direction: column;
+  }
 }
 .container-home .main .side-by-side-btm .small-img {
   width: 50%;
@@ -404,16 +408,33 @@ footer .copyright {
   font-size: 24px;
   padding: 100px 0 50px 0;
 }
+@media (max-width: 500px) {
+  .container-home .main .recent-projects {
+    padding: 70px 0 40px 0;
+  }
+}
 .container-home .main .villas {
   width: 100%;
   display: flex;
   flex-direction: column;
   padding-bottom: 75px;
 }
+@media (max-width: 500px) {
+  .container-home .main .villas {
+    padding-bottom: 40px;
+  }
+}
 .container-home .main .villas .villas-header {
   background: url(../img/home/home-villas-img.png);
   background-repeat: no-repeat;
   height: 300px;
+}
+@media (max-width: 500px) {
+  .container-home .main .villas .villas-header {
+    background: no-repeat url(../img/home/home-mobile-villas-img.png);
+    background-size: 400px;
+    height: 350px;
+  }
 }
 .container-home .main .villas .villas-header h3 {
   height: 100px;
@@ -426,12 +447,22 @@ footer .copyright {
   padding-top: 35px;
   margin: 175px 0 0 540px;
 }
+@media (max-width: 500px) {
+  .container-home .main .villas .villas-header h3 {
+    margin: 225px auto;
+  }
+}
 .container-home .main .villas .villas-info {
   padding-top: 20px;
   font-size: 1.8rem;
   line-height: 2.4rem;
   width: 53%;
   margin: 0 auto;
+}
+@media (max-width: 500px) {
+  .container-home .main .villas .villas-info {
+    width: 90%;
+  }
 }
 .container-home .main .villas .villas-info p {
   padding-bottom: 22px;
@@ -442,10 +473,22 @@ footer .copyright {
   flex-direction: column;
   padding-bottom: 75px;
 }
+@media (max-width: 500px) {
+  .container-home .main .outskirts {
+    padding-bottom: 45px;
+  }
+}
 .container-home .main .outskirts .outskirts-header {
   background: url(../img/home/home-outskirts-img.png);
   background-repeat: no-repeat;
   height: 300px;
+}
+@media (max-width: 500px) {
+  .container-home .main .outskirts .outskirts-header {
+    height: 350px;
+    background: no-repeat url(../img/home/home-mobile-outskirts-img.png);
+    background-size: 400px;
+  }
 }
 .container-home .main .outskirts .outskirts-header h3 {
   height: 100px;
@@ -458,12 +501,22 @@ footer .copyright {
   padding-top: 35px;
   margin: 175px 540px 0 0;
 }
+@media (max-width: 500px) {
+  .container-home .main .outskirts .outskirts-header h3 {
+    margin: 225px auto;
+  }
+}
 .container-home .main .outskirts .outskirts-info {
   padding-top: 20px;
   font-size: 1.8rem;
   line-height: 2.4rem;
   width: 53%;
   margin: 0 auto;
+}
+@media (max-width: 500px) {
+  .container-home .main .outskirts .outskirts-info {
+    width: 90%;
+  }
 }
 .container-home .main .outskirts .outskirts-info p {
   padding-bottom: 22px;
@@ -474,10 +527,22 @@ footer .copyright {
   flex-direction: column;
   padding-bottom: 75px;
 }
+@media (max-width: 500px) {
+  .container-home .main .the-blocks {
+    padding-bottom: 45px;
+  }
+}
 .container-home .main .the-blocks .blocks-header {
   background: url(../img/home/home-the-blocks-img.png);
   background-repeat: no-repeat;
   height: 300px;
+}
+@media (max-width: 500px) {
+  .container-home .main .the-blocks .blocks-header {
+    background: no-repeat url(../img/home/home-mobile-the-blocks-img.png);
+    background-size: 400px;
+    height: 350px;
+  }
 }
 .container-home .main .the-blocks .blocks-header h3 {
   height: 100px;
@@ -490,12 +555,22 @@ footer .copyright {
   padding-top: 35px;
   margin: 175px 0 0 540px;
 }
+@media (max-width: 500px) {
+  .container-home .main .the-blocks .blocks-header h3 {
+    margin: 225px auto;
+  }
+}
 .container-home .main .the-blocks .blocks-info {
   padding-top: 20px;
   font-size: 1.8rem;
   line-height: 2.4rem;
   width: 53%;
   margin: 0 auto;
+}
+@media (max-width: 500px) {
+  .container-home .main .the-blocks .blocks-info {
+    width: 90%;
+  }
 }
 .container-home .main .the-blocks .blocks-info p {
   padding-bottom: 22px;
