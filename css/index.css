@@ -191,9 +191,24 @@ footer {
   flex-wrap: wrap;
   padding: 60px 0 0 0;
 }
+@media (max-width: 500px) {
+  footer {
+    height: 700px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 30px 0 0 0;
+    justify-content: flex-start;
+  }
+}
 footer .form {
   width: 40%;
   padding-left: 85px;
+}
+@media (max-width: 500px) {
+  footer .form {
+    width: 100%;
+    padding-left: 5%;
+  }
 }
 footer .form h3 {
   font-weight: bold;
@@ -209,6 +224,11 @@ footer .form p {
   color: #FFFFFF;
   font-size: 1.2rem;
 }
+@media (max-width: 500px) {
+  footer .form p {
+    padding-bottom: 20px;
+  }
+}
 footer .form input {
   margin: 5px 0;
   padding-left: 5px;
@@ -219,11 +239,23 @@ footer .form input {
   font-size: 1.6rem;
   line-height: 2.4rem;
 }
+@media (max-width: 500px) {
+  footer .form input {
+    width: 90%;
+  }
+}
 footer .addresses {
   display: flex;
   justify-content: space-between;
   width: 60%;
   padding: 0 90px 0 10px;
+}
+@media (max-width: 500px) {
+  footer .addresses {
+    flex-direction: column;
+    width: 100%;
+    padding-left: 5%;
+  }
 }
 footer .addresses .address h3 {
   font-weight: bold;
@@ -237,6 +269,7 @@ footer .addresses .address p {
   font-size: 1.4rem;
   line-height: 2.6rem;
   color: #FFFFFF;
+  padding-bottom: 20px;
 }
 footer .copyright {
   width: 100%;
@@ -244,6 +277,12 @@ footer .copyright {
   font-size: 1.2rem;
   text-align: center;
   padding-top: 25px;
+}
+@media (max-width: 500px) {
+  footer .copyright {
+    text-align: left;
+    padding-left: 5%;
+  }
 }
 .container-home {
   width: 100%;

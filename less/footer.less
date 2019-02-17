@@ -5,12 +5,25 @@ footer {
     justify-content: space-around;
     flex-wrap: wrap;
     padding: 60px 0 0 0;
+
+    @media @mobile {
+        height: 700px;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        padding: 30px 0 0 0;
+        justify-content: flex-start;
+    }
     
 
     .form {
 
         width: 40%;
         padding-left: 85px;
+
+        @media @mobile {
+            width: 100%;
+            padding-left: 5%;
+        }
         
         h3 {
             .footer-heading;
@@ -20,6 +33,10 @@ footer {
         p {
             .footer-text;
             font-size: 1.2rem;
+
+            @media @mobile {
+                padding-bottom: 20px;
+            }
         }
 
         input {
@@ -29,6 +46,10 @@ footer {
             width: 275px;
             border-radius: 5px;
             .text;
+
+            @media @mobile{
+                width: 90%;
+            }
         }
     }
 
@@ -38,6 +59,12 @@ footer {
         justify-content: space-between;
         width: 60%;
         padding: 0 90px 0 10px;
+
+        @media @mobile {
+            flex-direction: column;
+            width: 100%;
+            padding-left: 5%;
+        }
 
         .address{
             
@@ -49,6 +76,7 @@ footer {
     
             p {
                 .footer-text;
+                padding-bottom: 20px;
             }
         }
     }
@@ -59,5 +87,10 @@ footer {
         font-size: 1.2rem;
         text-align: center;
         padding-top: 25px;
+
+        @media @mobile {
+            text-align: left;
+            padding-left: 5%;
+        }
     }
 }
