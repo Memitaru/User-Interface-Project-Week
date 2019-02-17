@@ -16,6 +16,7 @@ header {
 
     .hamburger{
         padding-right: 85px;
+        cursor: pointer;
 
         @media @mobile {
             padding-right: 15px;
@@ -23,10 +24,27 @@ header {
     }
 }
 
+.nav-container {
+    position: relative;
+}
+
 nav {
     display: none;
+
+    a {
+        .nav-text-expanded;
+    }
 }
 
 .nav-open {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    background-color: @nav-bg;
+    opacity: .9;
+    position: absolute;
+    top: 50;
 }

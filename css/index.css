@@ -171,17 +171,40 @@ header .logo {
 }
 header .hamburger {
   padding-right: 85px;
+  cursor: pointer;
 }
 @media (max-width: 500px) {
   header .hamburger {
     padding-right: 15px;
   }
 }
+.nav-container {
+  position: relative;
+}
 nav {
   display: none;
 }
+nav a {
+  font-weight: bold;
+  font-size: 2.8rem;
+  line-height: 8.5rem;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+nav a:hover {
+  color: #222222;
+}
 .nav-open {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  background-color: #99A4AF;
+  opacity: 0.9;
+  position: absolute;
+  top: 50;
 }
 footer {
   height: 270px;
@@ -310,7 +333,7 @@ footer .copyright {
 }
 .container-home .banner-top p {
   width: 50%;
-  padding: 30px 0 0 10px;
+  padding: 275px 0 0 85px;
 }
 @media (max-width: 500px) {
   .container-home .banner-top p {
