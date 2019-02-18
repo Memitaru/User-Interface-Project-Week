@@ -649,3 +649,14 @@ footer .copyright {
   max-width: 1024px;
   margin: 0 auto;
 }
+.container-services .services-header {
+  background: no-repeat url(../img/services/services-jumbotron.png);
+  height: 200px;
+}
+.container-services .services-header h1 {
+  font-weight: bold;
+  font-size: 6.4rem;
+  line-height: 7.5rem;
+  color: #FFFFFF;
+  padding: 105px 0 0 88px;
+}
