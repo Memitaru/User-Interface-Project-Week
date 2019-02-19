@@ -699,6 +699,9 @@ footer .copyright {
 .container-services .content-container .article-container {
   padding-bottom: 70px;
 }
+.container-services .content-container .article-container .article {
+  display: none;
+}
 .container-services .content-container .article-container .article .text {
   width: 50%;
 }
@@ -734,15 +737,6 @@ footer .copyright {
     display: none;
   }
 }
-.container-services .content-container .article-container .pre-construction-article {
+.container-services .content-container .article-container .active-article {
   display: flex;
-}
-.container-services .content-container .article-container .construction-article {
-  display: none;
-}
-.container-services .content-container .article-container .design-article {
-  display: none;
-}
-.container-services .content-container .article-container .sustainability-article {
-  display: none;
 }
