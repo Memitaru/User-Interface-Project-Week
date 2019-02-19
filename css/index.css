@@ -660,3 +660,36 @@ footer .copyright {
   color: #FFFFFF;
   padding: 105px 0 0 88px;
 }
+.container-services .content-container {
+  margin: 0 auto;
+  width: 83%;
+  padding-top: 50px;
+}
+.container-services .content-container .intro p {
+  font-weight: normal;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  line-height: 2.6rem;
+}
+.container-services .content-container .tab-nav {
+  padding: 40px 0;
+}
+.container-services .content-container .tab-nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+.container-services .content-container .tab-nav ul li {
+  width: 185px;
+  height: 50px;
+  border: 1px solid #222222;
+  font-weight: bold;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.container-services .content-container .tab-nav ul li:hover {
+  background-color: #222222;
+  color: #FFF;
+}
