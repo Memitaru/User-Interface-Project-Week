@@ -653,6 +653,11 @@ footer .copyright {
   background: no-repeat url(../img/services/services-jumbotron.png);
   height: 200px;
 }
+@media (max-width: 500px) {
+  .container-services .services-header {
+    height: 150px;
+  }
+}
 .container-services .services-header h1 {
   font-weight: bold;
   font-size: 6.4rem;
@@ -660,10 +665,20 @@ footer .copyright {
   color: #FFFFFF;
   padding: 105px 0 0 88px;
 }
+@media (max-width: 500px) {
+  .container-services .services-header h1 {
+    padding: 60px 0 0 20px;
+  }
+}
 .container-services .content-container {
   margin: 0 auto;
   width: 83%;
   padding-top: 50px;
+}
+@media (max-width: 500px) {
+  .container-services .content-container {
+    width: 90%;
+  }
 }
 .container-services .content-container .intro p {
   font-weight: normal;

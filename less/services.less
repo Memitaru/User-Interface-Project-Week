@@ -7,9 +7,17 @@
         background: no-repeat url(../img/services/services-jumbotron.png);
         height: 200px;
 
+        @media @mobile {
+            height: 150px;
+        }
+
         h1 {
            .jumbotron;
            padding: 105px 0 0 88px; 
+
+           @media @mobile {
+               padding: 60px 0 0 20px;
+           }
         }
     }
 
@@ -17,6 +25,10 @@
         margin: 0 auto;
         width: 83%;
         padding-top: 50px;
+
+        @media @mobile {
+            width: 90%;
+        }
 
         .intro {
 
