@@ -13,3 +13,9 @@ icon.addEventListener('click', () => {
         icon.src = 'img/nav-hamburger.png';
     }
 })
+
+// Animations
+
+// Home Page
+
+TweenMax.from(".main-page-big-text", 1.5, {opacity: 0, scale: 0.7});
