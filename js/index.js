@@ -20,10 +20,7 @@ icon.addEventListener('click', () => {
 
 TweenMax.from(".main-page-big-text", 1.5, {opacity: 0, scale: 0.7});
 
-// // Testing
+// Services Page
 
-// let button = document.querySelector('.button1');
-
-// let slide = () => TweenMax.set(button, {rotation: -45});
-
-// button.addEventListener('click', slide);
+TweenMax.from('.services-header', 2, {opacity: 0});
+TweenMax.from('.services', 1.5, {scale: 0, delay: .5});
