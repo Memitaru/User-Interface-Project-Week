@@ -8,8 +8,19 @@
         height: 200px;
 
         @media @mobile {
-            height: 150px;
-            
+            height: 200px;
+            background: no-repeat url(../img/contact/contact-mobile-jumbotron.png);
+            background-size: 100% 100%;
+        }
+
+        h1 {
+            .jumbotron;
+            padding: 105px 0 0 83px;
+
+            @media @mobile {
+                padding: 130px 0 0 20px;
+                font-size: 3.5rem;
+            }
         }
     }
 }

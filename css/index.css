@@ -769,7 +769,7 @@ footer .copyright {
 @media (max-width: 500px) {
   .container-services .smallheader h1 {
     padding: 130px 0 0 20px;
-    font-size: 35px;
+    font-size: 3.5rem;
   }
 }
 .container-services .content-container {
@@ -933,6 +933,21 @@ footer .copyright {
 }
 @media (max-width: 500px) {
   .container-contact .smallheader {
-    height: 150px;
+    height: 200px;
+    background: no-repeat url(../img/contact/contact-mobile-jumbotron.png);
+    background-size: 100% 100%;
+  }
+}
+.container-contact .smallheader h1 {
+  font-weight: bold;
+  font-size: 6.4rem;
+  line-height: 7.5rem;
+  color: #FFFFFF;
+  padding: 105px 0 0 83px;
+}
+@media (max-width: 500px) {
+  .container-contact .smallheader h1 {
+    padding: 130px 0 0 20px;
+    font-size: 3.5rem;
   }
 }
