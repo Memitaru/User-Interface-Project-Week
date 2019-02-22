@@ -24,3 +24,4 @@ TweenMax.from(".main-page-big-text", 1.5, {opacity: 0, scale: 0.7});
 
 TweenMax.from('.services-header', 2, {opacity: 0});
 TweenMax.from('.services', 1.5, {scale: 0, delay: .5});
+

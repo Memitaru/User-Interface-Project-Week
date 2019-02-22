@@ -908,3 +908,8 @@ footer .copyright {
     flex-direction: column-reverse;
   }
 }
+.container-contact {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+}
