@@ -10,6 +10,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
+}
+.home-button:hover {
+  border: 2px solid #222222;
 }
 @media (max-width: 500px) {
   .home-button {
@@ -421,6 +425,11 @@ footer .copyright {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
+  position: relative;
+}
+.container-home .main .button:hover {
+  border: 2px solid #222222;
 }
 @media (max-width: 500px) {
   .container-home .main .button {

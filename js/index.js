@@ -19,3 +19,11 @@ icon.addEventListener('click', () => {
 // Home Page
 
 TweenMax.from(".main-page-big-text", 1.5, {opacity: 0, scale: 0.7});
+
+// // Testing
+
+// let button = document.querySelector('.button1');
+
+// let slide = () => TweenMax.set(button, {rotation: -45});
+
+// button.addEventListener('click', slide);
