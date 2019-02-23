@@ -951,3 +951,86 @@ footer .copyright {
     font-size: 3.5rem;
   }
 }
+.container-contact .main-container {
+  display: flex;
+  margin: 0 auto;
+  width: 83%;
+  padding-top: 50px;
+  justify-content: space-between;
+}
+.container-contact .main-container .contact-form-container {
+  width: 50%;
+}
+.container-contact .main-container .contact-form-container h2 {
+  font-weight: bold;
+  font-size: 24px;
+  padding-bottom: 50px;
+}
+.container-contact .main-container .contact-form-container label {
+  font-size: 1.6rem;
+  display: block;
+  padding-bottom: 10px;
+}
+.container-contact .main-container .contact-form-container input[type=email] {
+  height: 35px;
+  width: 95%;
+  border-radius: 2px;
+  padding-left: 10px;
+  font-size: 1.6rem;
+  border: 1px solid #D8D8D8;
+  margin-bottom: 10px;
+}
+.container-contact .main-container .contact-form-container .email-disclaimer {
+  font-size: 1.3rem;
+  padding-bottom: 35px;
+}
+.container-contact .main-container .contact-form-container select {
+  margin-bottom: 40px;
+  height: 35px;
+  width: 95%;
+  border-radius: 2px;
+  padding-left: 10px;
+  font-size: 1.6rem;
+  border: 1px solid #D8D8D8;
+}
+.container-contact .main-container .contact-form-container textarea {
+  border-radius: 2px;
+  font-size: 1.6rem;
+  border: 1px solid #D8D8D8;
+  width: 95%;
+  margin-bottom: 25px;
+}
+.container-contact .main-container .contact-form-container .radio-buttons {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.container-contact .main-container .contact-form-container input[type=submit] {
+  border: 1px solid black;
+  font-size: 1.6rem;
+  height: 45px;
+  width: 140px;
+  background-color: white;
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+.container-contact .main-container .location-info {
+  width: 33%;
+}
+.container-contact .main-container .location-info h2 {
+  font-weight: bold;
+  font-size: 24px;
+  padding: 10px 0 40px 0;
+}
+.container-contact .main-container .location-info .address {
+  padding-bottom: 35px;
+}
+.container-contact .main-container .location-info .address h3 {
+  font-weight: bold;
+  font-size: 2rem;
+  padding-bottom: 10px;
+}
+.container-contact .main-container .location-info .address p {
+  font-size: 1.8rem;
+  padding-bottom: 10px;
+}
