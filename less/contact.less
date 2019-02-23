@@ -32,8 +32,21 @@
         padding-top: 50px;
         justify-content: space-between;
 
+        @media @mobile {
+            flex-direction: column;
+            justify-content: flex-start;
+        }
+
         .contact-form-container {
             width: 50%;
+
+            @media @tablet {
+                width: 65%;
+            }
+
+            @media @mobile {
+                width: 100%;
+            }
             
             h2 {
                 .index-subhead;
@@ -93,12 +106,24 @@
                 background-color: white;
                 margin-bottom: 50px;
                 cursor: pointer;
+
+                @media @tablet {
+                    width: 50%;
+                }
+
+                @media @mobile {
+                    width: 95%;
+                }
             }
             
         }
 
         .location-info {
             width: 33%;
+
+            @media @mobile {
+                width: 100%;
+            }
 
             h2 {
                 .index-subhead;
