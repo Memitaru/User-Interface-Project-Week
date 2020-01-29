@@ -1,0 +1,154 @@
+.container-contact {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+
+    .smallheader {
+        background: no-repeat url(../img/contact/contact-jumbotron.png);
+        height: 200px;
+
+        @media @mobile {
+            height: 200px;
+            background: no-repeat url(../img/contact/contact-mobile-jumbotron.png);
+            background-size: 100% 100%;
+        }
+
+        h1 {
+            .jumbotron;
+            padding: 105px 0 0 83px;
+
+            @media @mobile {
+                padding: 130px 0 0 20px;
+                font-size: 3.5rem;
+            }
+        }
+    }
+
+    .main-container {
+        
+        display: flex;
+        margin: 0 auto;
+        width: 83%;
+        padding-top: 50px;
+        justify-content: space-between;
+
+        @media @mobile {
+            flex-direction: column;
+            justify-content: flex-start;
+        }
+
+        .contact-form-container {
+            width: 50%;
+
+            @media @tablet {
+                width: 65%;
+            }
+
+            @media @mobile {
+                width: 100%;
+            }
+            
+            h2 {
+                .index-subhead;
+                padding-bottom: 50px;
+            }
+
+            label {
+                font-size: 1.6rem;
+                display: block;
+                padding-bottom: 10px;
+            }
+
+            input[type=email]{
+                height: 35px;
+                width: 95%;
+                border-radius: 2px;
+                padding-left: 10px;
+                font-size: 1.6rem;
+                border: 1px solid @project-label;
+                margin-bottom: 10px;
+            }
+
+            .email-disclaimer {
+                font-size: 1.3rem;
+                padding-bottom: 35px;
+            }
+
+            select{
+                margin-bottom: 40px;
+                height: 35px;
+                width: 95%;
+                border-radius: 2px;
+                padding-left: 10px;
+                font-size: 1.6rem;
+                border: 1px solid @project-label;
+            }
+
+            textarea {
+                border-radius: 2px;
+                font-size: 1.6rem;
+                border: 1px solid @project-label;
+                width: 95%;
+                margin-bottom: 25px;
+            }
+
+            .radio-buttons{
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 20px;
+            }
+
+            input[type=submit]{
+                border: 1px solid black;
+                font-size: 1.6rem;
+                height: 45px;
+                width: 140px;
+                background-color: white;
+                margin-bottom: 50px;
+                cursor: pointer;
+
+                &:hover {
+                    border: 2px solid @button-border;
+                }
+
+                @media @tablet {
+                    width: 50%;
+                }
+
+                @media @mobile {
+                    width: 95%;
+                }
+            }
+            
+        }
+
+        .location-info {
+            width: 33%;
+
+            @media @mobile {
+                width: 100%;
+            }
+
+            h2 {
+                .index-subhead;
+                padding: 10px 0 40px 0;
+            }
+
+            .address {
+                
+                padding-bottom: 35px;
+
+                h3 {
+                    font-weight: bold;
+                    font-size: 2rem;
+                    padding-bottom: 10px;
+                }
+                
+                p {
+                    font-size: 1.8rem;
+                    padding-bottom: 10px;
+                }
+            }
+        }
+    }
+}

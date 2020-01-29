@@ -1,0 +1,109 @@
+footer {
+    height: 270px;
+    background-color: @footer-background;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 60px 0 0 0;
+
+    @media @tablet {
+        height: 300px;
+        padding: 40px 0 0 0;
+    }
+
+    @media @mobile {
+        height: 700px;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        padding: 30px 0 0 0;
+        justify-content: flex-start;
+    }
+    
+
+    .form {
+
+        width: 40%;
+        padding-left: 85px;
+
+        @media @tablet {
+            padding-left: 50px;
+        }
+
+        @media @mobile {
+            width: 100%;
+            padding-left: 5%;
+        }
+        
+        h3 {
+            .footer-heading;
+            padding-bottom: 5px;
+
+            @media @tablet {
+                padding-bottom: 10px;
+            }
+        }
+
+        p {
+            .footer-text;
+            font-size: 1.2rem;
+
+            @media @mobile {
+                padding-bottom: 20px;
+            }
+        }
+
+        input {
+            margin: 5px 0;
+            padding-left: 5px;
+            height: 45px;
+            width: 275px;
+            border-radius: 5px;
+            .text;
+
+            @media @tablet{
+                width: 90%;
+            }
+        }
+    }
+
+    .addresses {
+
+        display: flex;
+        justify-content: space-between;
+        width: 60%;
+        padding: 0 50px 0 10px;
+
+        @media @mobile {
+            flex-direction: column;
+            width: 100%;
+            padding-left: 5%;
+        }
+
+        .address{
+            
+
+            h3 {
+                .footer-heading;
+                padding-bottom: 5px;
+            }
+    
+            p {
+                .footer-text;
+                padding-bottom: 20px;
+            }
+        }
+    }
+
+    .copyright {
+        width: 100%;
+        color: @headings;
+        font-size: 1.2rem;
+        text-align: center;
+        padding-top: 25px;
+
+        @media @mobile {
+            text-align: left;
+            padding-left: 5%;
+        }
+    }
+}
